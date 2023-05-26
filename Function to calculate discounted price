@@ -1,0 +1,5 @@
+def discount(price, discount):
+	percent = discount/100 * price
+	total = price - percent
+	return round(total, 2)
+ 
